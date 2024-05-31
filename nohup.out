@@ -1,0 +1,14 @@
+Gateway listening in 3001
+Gateway listening in 3001
+Hi
+AxiosError: Unknown adapter 'http://localhost:3002/fakeapi'
+    at Function.getAdapter (/Users/gomathi/api-gateway/node_modules/axios/dist/node/axios.cjs:3549:17)
+    at /Users/gomathi/api-gateway/routes/index.js:7:9
+    at Layer.handle [as handle_request] (/Users/gomathi/api-gateway/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/gomathi/api-gateway/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/gomathi/api-gateway/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/gomathi/api-gateway/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/gomathi/api-gateway/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/gomathi/api-gateway/node_modules/express/lib/router/index.js:365:14)
+    at param (/Users/gomathi/api-gateway/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/Users/gomathi/api-gateway/node_modules/express/lib/router/index.js:421:3)
